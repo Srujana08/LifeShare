@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.microsoft.bvrith.lifesharefinal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.SignUp" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.Login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserMenu">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.UserMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FindBlood">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.FindBlood" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListOfDonors">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.ListOfDonors" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListOfRequests">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.ListOfRequests" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListOfBloodbanksUMenu">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.ListOfBloodbanksUMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConsentForm">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.ConsentForm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DonorBloodGroup">
+            <intent-filter>
+                <action android:name="com.microsoft.bvrith.lifesharefinal.DonorBloodGroup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
